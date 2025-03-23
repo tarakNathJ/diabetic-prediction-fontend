@@ -26,7 +26,7 @@ export default function RiskResult() {
           {riskInfo.level} Risk
         </h2>
         <div className="text-2xl text-white mb-6">
-          {isNaN(parseFloat(ShowResult)) ? `you might be ${ShowResult}` : `${ShowResult}%`}
+          {isNaN(parseFloat(ShowResult)) ? `You might ${ ShowResult=="Diabetic" ?`be ${ShowResult}` :` not be Diabetic` }` : `${ShowResult}%`}
         </div>
         <div className="flex justify-center gap-2">
           {ShowResult == "Diabetic" ? (
@@ -78,3 +78,4 @@ export default function RiskResult() {
     </div>
   );
 }
+
