@@ -14,6 +14,7 @@ export default function Hero() {
             </h1>
             <p className="mt-3 text-base sm:text-lg lg:text-xl text-gray-300 max-w-3xl mx-auto lg:mx-0">
               Early detection is key to managing diabetes. Use our advanced prediction tool to assess your risk factors and take proactive steps towards a healthier future.
+              Email : lajahob952@cristout.com and Password is :1234
             </p>
             <div className="mt-8 flex justify-center lg:justify-start">
               <a
